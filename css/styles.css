@@ -1,0 +1,180 @@
+body {
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  header {
+    background-color: #082b59;
+    color: #ffffff;
+    border-bottom-style: solid;
+    border-width: 10px;
+    border-color: #d98555;
+  }
+  
+  nav {
+    margin-right: 1rem;
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: end;
+    gap: 1rem;
+  }
+ 
+  nav a {
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+    color: #ffffff;
+  }
+
+  nav a:hover {
+    color: #d98555;
+  }
+  
+  .gulogo img {
+    margin-right: auto;
+    max-width: 150px;
+  }
+  
+  article {
+    flex-basis: 60%;
+  }
+  
+  .themeal {
+    background-color: #ffffff;
+    font-family: "Lato", sans-serif;
+  }
+  
+  .aboutus {
+    max-width: 75rem;
+    margin-bottom: 100px;
+    padding: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+  
+  .aboutus p {
+    font-size: 20px;
+    font-weight: thin;
+    line-height: 2;
+  }
+  
+  h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700px;
+    font-size: 30px;
+  }
+  
+  .sanfran {
+    color: #d98555;
+  }
+  
+  .sanfran:hover {
+    color: #59331d;
+    text-decoration: none;
+  }
+  
+  button {
+    background-color: #59331d;
+    color: #ffffff;
+    font-weight: thin;
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    border: none;
+    padding: 17px;
+    border-radius: 12px;
+    display: flex;
+  }
+  
+  button a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  button:hover {
+    background-color: #d98555;
+  }
+  
+  figure {
+    margin: 120px 0px 0px 0px;
+    flex-basis: 10%;
+    display: flex;
+  }
+  
+  figure img {
+    border-radius: 12px;
+    max-width: 475px;
+  }
+
+  .bbeans img {
+    max-width: 100%;
+    object-fit: fill;
+  }
+
+  footer {
+      background-color: #082b59;
+      color: #ffffff;
+      text-align: center;
+      border-top: 10px solid #d98555;
+    }
+  
+    footer ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+    }
+  
+  .cr {
+    font-family: 'Roboto', sans-serif;
+    margin: 40px;
+  }
+  
+    footer a {
+      color: #f2f2f2;
+      font-size: 2rem;
+      display: block;
+      margin: 0 1rem 3rem 1rem;
+    }
+  
+  @media (max-width: 550px) {
+    nav {
+      margin: 0 1rem;
+    }
+    nav ul {
+      display: block;
+    }
+    nav a {
+      margin: 0 0 2rem 0;
+      text-align: center;
+    }
+  }
+  @media (max-width: 900px) {
+    .gulogo img {
+      flex-basis: 100%;
+      margin: 0;
+      text-align: center;
+    }
+    nav ul {
+      justify-content: center;
+    }
+    nav a {
+      margin: 0 0 3rem 0;
+    }
+  }
+  
